@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo-service
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+server:
+  port: 8080

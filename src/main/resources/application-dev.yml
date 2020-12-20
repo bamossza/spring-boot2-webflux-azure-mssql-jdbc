@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: ''
+    password: ''
+    sql-script-encoding: UTF-8
+    name: connection-service-demo
+    url: jdbc:sqlserver://{azure-url}.database.windows.net:1433;database={dbname};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
